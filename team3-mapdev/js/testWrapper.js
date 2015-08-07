@@ -19,7 +19,13 @@ testWrapper = {
 
 		document.getElementById('message').innerHTML += '<br/><span class="status-message">Test wrapper active.</span>';
 
-		mapModule.displayMap();
+		mapModule.displayMap({
+            lat: -20.000,
+            lng: 150.000,
+            fromName: 'Tom',
+            message: 'Thanks for the help man!',
+            aboutName: 'Fred'
+        });
 		
 	},
 	
