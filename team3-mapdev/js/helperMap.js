@@ -35,11 +35,8 @@ mapModule = {
      * Create Marker
      * Function to place new Persons on the map.
      */
-    createMarker: function(lat, lng){
-        var myLatLng = new google.maps.LatLng(lat, lng);
-        var marker = new google.maps.Marker({
-            
-        });
+    addHelper: function(twitterHandle, lat, lng){
+        
     }
 	
 
